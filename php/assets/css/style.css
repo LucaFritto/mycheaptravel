@@ -1,0 +1,165 @@
+/* stile generale */
+html,body {height: 100%;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+.navbar {
+    position:fixed;
+    z-index: 50000;
+    width: 100%;
+	background-color: #304F8C;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+	border-radius: 0!important;
+    
+}
+.navbar-brand {
+    padding: 0!important;
+}
+
+nav{
+    float:right;
+}
+
+.profileLink{
+    float:right;
+}
+
+.insertForm{
+    top:72px;
+    position:relative;
+}
+.sidebar {
+	background-color: #537BCA ;
+	position: fixed;
+	width: 20%;
+    height: 100%;
+    top: 52px;
+    margin: 0;
+    z-index: 0;
+}
+.sidebar ul li a {
+    color:white;
+    align-content: center;
+}
+.content {
+    z-index: 499;
+    position: fixed;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    padding: 40px;
+    top: 52px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    padding-bottom: 100px;
+    margin-left: 20%;
+}
+.content2 {
+    z-index: 499;
+    position: fixed;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    padding: 25px;
+    top: 52px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    padding-bottom: 100px;
+}
+.content a{
+    color:black;
+}
+.form{
+    align-self: center !important;
+}
+
+.tipo{
+    font-size: large;
+    height: 40px;
+}
+
+.crop{
+    width: 400px;
+  height: 400px;
+  overflow: hidden;
+}
+.titolo{
+    font-size: x-large;
+    height: 40px;
+}
+
+.immag{
+    height: 260px;
+    width: 260px;
+    overflow: hidden;
+    
+}
+
+.descrizione{
+    height:260px;
+}
+.titoloviaggio{
+    width:80%;
+    font-size: xx-large;
+    height: 60px;
+    margin: 0;
+    position: relative;
+    left: 10%;
+}
+.tipoviaggio{
+    border: solid;    
+    float:right;
+    margin:0;
+    position: relative;
+}
+.imgviaggio{
+    height: auto;
+    width: auto;
+    position: relative;
+}
+.lungadescr{
+    padding-left: 2%;
+    padding-bottom: 3%;
+    font-size: medium;
+}
+.zonacommenti{
+    z-index: 499;
+    border-top: solid;
+    position: relative;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    padding: 25px;
+    bottom: 0;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: auto;
+    padding-bottom: 100px;
+}
+.content3 {
+    z-index: 499;
+    position: fixed;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    padding: 25px;
+    top: 52px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    padding-bottom: 100px;
+}
+.checkboxcol{
+    height: auto;
+    padding:10px;
+}
+.downloadelenco{
+    margin-top:10px;
+    float:right;
+}
+.proposte a{
+color: black;
+}
